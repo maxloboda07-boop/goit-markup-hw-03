@@ -30,12 +30,11 @@ h1, h2, h3, p {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  box-sizing: border-box;
 }
-
 /* HEADER */
-header {
+.site-header {
   border-bottom: 1px solid #e7e9fc;
+  padding: 0 15px;
 }
 
 .header-container {
