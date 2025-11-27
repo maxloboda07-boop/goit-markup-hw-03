@@ -34,17 +34,25 @@ h1, h2, h3, p {
 }
 
 /* HEADER */
+header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
+  padding: 0 15px;
 }
 
 .main-nav {
   display: flex;
   align-items: center;
-  gap: 40px;
+}
+
+.logo {
+  margin-right: 76px;
+  padding: 24px 0;
 }
 
 .main-nav-list {
@@ -52,9 +60,23 @@ h1, h2, h3, p {
   gap: 40px;
 }
 
+.nav-link {
+  padding: 24px 0;
+  display: block;
+}
+
+.contacts {
+  font-style: normal;
+}
+
 .contact-list {
   display: flex;
   gap: 40px;
+}
+
+.contact-link {
+  padding: 24px 0;
+  display: block;
 }
 
 /* LOGO */
