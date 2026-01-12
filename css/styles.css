@@ -64,11 +64,6 @@ h1, h2, h3, p {
   gap: 40px;
 }
 
-.nav-link {
-  padding: 24px 0;
-  display: block;
-}
-
 .contacts {
   font-style: normal;
 }
@@ -78,10 +73,7 @@ h1, h2, h3, p {
   gap: 40px;
 }
 
-.contact-link {
-  padding: 24px 0;
-  display: block;
-}
+
 
 /* LOGO */
 .logo {
@@ -101,21 +93,22 @@ h1, h2, h3, p {
   color: #f4f4fd;
 }
 
-.nav-link {
+.nav-link,
+.contact-link {
   font-weight: 500;
   font-size: 16px;
-  color: #2e2f42;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.contact-link {
+  padding: 24px 0;
+  display: block;
 }
 
 .nav-link:hover,
 .nav-link:focus {
   color: #404bbf;
-}
-
-
-.contact-link {
-  font-size: 16px;
-  color: #434455;
 }
 
 .contact-link:hover,
@@ -127,14 +120,14 @@ h1, h2, h3, p {
 .hero-section {
   background-color: #2e2f42;
   text-align: center;
-   padding: 188px 0;
+  padding: 188px 0;
 }
 
 .hero-title {
   max-width: 496px;
   margin: 0 auto 48px;
   font-size: 56px;
-  line-height: 1.07;
+  line-height: 60px;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
@@ -148,6 +141,8 @@ h1, h2, h3, p {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  line-height: 24px;
+  letter-spacing: 0.04em;
 }
 
 
@@ -178,6 +173,8 @@ h1, h2, h3, p {
 .advantage-text {
   font-size: 16px;
   color: #434455;
+  letter-spacing: 0.02em;
+  line-height: 24px;
 }
 
 /* OUR TEAM */
@@ -189,7 +186,9 @@ h1, h2, h3, p {
   font-size: 36px;
   text-align: center;
   color: #2e2f42;
-  margin-bottom: 60px;
+  margin-bottom: 72px;
+  letter-spacing: 0.02em;
+  line-height: 40px;
 }
 
 .team-list {
@@ -200,11 +199,12 @@ h1, h2, h3, p {
 .team-member {
   width: calc((100% - 72px) / 4);
   background-color: #ffffff;
-    border-radius: 0 0 4px 4px
+  border-radius: 0 0 4px 4px
 }
 .team-card-content {
-  padding: 32px 0;
+  padding: 32px 16px;
   text-align: center;
+  
 }
 
 
@@ -212,7 +212,7 @@ h1, h2, h3, p {
   font-weight: 500;
   font-size: 20px;
   color: #2e2f42;
-  margin-top: 10px;
+  margin-top: 8px;
 }
 
 .member-role {
@@ -226,11 +226,13 @@ h1, h2, h3, p {
   font-size: 36px;
   text-align: center;
   color: #2e2f42;
-  margin-bottom: 60px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  margin-bottom: 72px;
 }
 
 .portfolio-list {
-   display: flex;
+  display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
 }
@@ -238,7 +240,7 @@ h1, h2, h3, p {
 
 .portfolio-content {
   padding: 32px 16px;
-   border: 1px solid E7E9FC;
+  border: 1px solid #E7E9FC;
   border-top: none;
 }
 
@@ -247,7 +249,7 @@ h1, h2, h3, p {
   font-weight: 500;
   font-size: 20px;
   color: #2e2f42;
-  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 .portfolio-type {
